@@ -1,0 +1,34 @@
+{
+  "name": "testcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "custom-env": "^1.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-flowtype": "^3.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalliaK/taskCLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/NatalliaK/taskCLI/issues"
+  },
+  "homepage": "https://github.com/NatalliaK/taskCLI#readme"
+}
