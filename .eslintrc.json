@@ -19,6 +19,8 @@
         "no-console": ["error", { "allow": ["log", "error"] }],
         "arrow-parens": ["error", "as-needed"],
         "consistent-return": "off",
-        "prefer-destructuring": "off"
+        "prefer-destructuring": "off",
+        "indent": ["error", "tab"],
+        "no-tabs": ["error", { "allowIndentationTabs": true }]
     }
 }
